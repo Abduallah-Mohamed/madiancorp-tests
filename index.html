@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- My script file with defer attr to make sure that run after all element has been loaded -->
+    <script src="app.js" defer></script>
+
+    <!-- My style file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Rock Game</title>
+</head>
+
+<body>
+    <h2>rock paper scissors
+
+    </h2>
+    <p>who gets 5 first will win!</p>
+    <div class="container">
+        <div class="left">
+            <h3>Please Pick One Of The Next Items </h3>
+            <div class="items">
+                <button class="btn-1" id="rock"><span>Rock</span></button>
+                <button class="btn-2" id="paper"><span>Paper</span></button>
+                <button class="btn-3" id="scissors"><span>Scissors</span></button>
+                <div class="message"></div>
+                <div class="scores">
+
+                    <div>Your Score Is: <span class="user-score"></span></div>
+                    <div>
+                        computer choose: <span class="choose"></span>
+                        Computer Score is: <span class="computer-score"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
